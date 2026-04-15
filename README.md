@@ -1,2 +1,14 @@
-# react-projects
-Frontend learning repo with React, HTML, and CSS projects. My journey learning React and frontend basics. Practice projects built using React, HTML, and CSS. Beginner frontend projects and React experiments.
+# React Projects
+
+This repository contains my learning projects:
+- HTML & CSS practice
+- React beginner projects
+- Frontend experiments
+
+## Projects
+- Project 1
+- Project 2
+- Project 3
+- Project 4
+
+More coming soon...
