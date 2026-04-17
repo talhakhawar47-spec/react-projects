@@ -1,0 +1,96 @@
+:root {
+    --bg: #9dc783;
+    --container: #fff;
+    --red: #d01010;
+    --dark_green: #0aae42;
+    --light_green: #1bff69;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: var(--bg);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:var(--container);
+
+
+}
+
+.top_container {
+    min-height: 600px;
+    margin-top: 32px;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 16px;
+    display: grid;
+
+}
+
+.bottom_container {
+    min-height: 350px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+
+.red_box {
+    background: var(--red);
+    width: 100%;
+    height: 100%;
+    min-height:274px;
+}
+.dark_green_box {
+    background: var(--dark_green);
+    width: 100%;
+    height: 200px;
+}
+
+.green_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.light_green_box {
+    background: var(--light_green);
+    height: 60px;
+}
+
+
+@media screen and (width > 1200px) {
+
+}
+
+@/* Tablet */
+@media screen and (max-width: 900px) {
+    .green_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .green_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .top_container {
+        grid-template-columns: 1fr;
+    }
+
+    .red_box {
+        background: var(--red);
+        /* 🔥 change color on phone */
+    }
+
+}
