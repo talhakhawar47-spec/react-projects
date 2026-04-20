@@ -1,0 +1,60 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --green: #1ea21e;
+    --red: #ff1a1a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    font-family: sans-serif;
+}
+
+/* OUTER BLACK BOX */
+.card {
+    width: 600px;
+    margin: 40px auto;
+    background: var(--black);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+/* GREEN SECTION */
+.top_section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: var(--green);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+/* WHITE CIRCLE */
+.avatar {
+    width: 60px;
+    height: 60px;
+    background: var(--white);
+    border-radius: 50%;
+}
+
+/* INPUT BAR */
+.input {
+    flex: 1;
+    height: 50px;
+    background: #ddd;
+    border-radius: 30px;
+}
+
+/* RED SECTION */
+.bottom_section {
+    background: var(--red);
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
